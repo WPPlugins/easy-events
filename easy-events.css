@@ -1,0 +1,48 @@
+/*
+  Easy Events plugin CSS
+*/
+
+/* Admin screens */
+
+.column-event_date { width: 20%; }
+
+.column-event_title { width: 60% }
+
+.column-event_place { width: 20%; }
+
+.column-programme { width: 20%; }
+
+.edit-event { width: 50%; }
+
+.no-programme { opacity: 0.5; }
+
+
+/* Shortcode layout */
+
+.easy-events-show-past { cursor: pointer; }
+
+
+/* Widget layout */
+
+.easy-events-widget table tfoot th { text-align: center; }
+
+.easy-events-colour span { font-size: 30px; font-size: 3.0rem; line-height: 2; }
+
+
+/* Past, current and future event formatting */
+
+.easy-events-past td { opacity: 0.5; }
+
+.easy-events-today td { font-weight: bold; }
+
+.easy-events-future td {  }
+
+
+@media only screen and (max-width: 480px)  {
+
+	.easy-events-list td, .easy-events-list tr { display: block; }
+
+	.easy-events-list td { width: auto !important; }
+
+	.easy-events-list td.colour { display: none; }
+}
